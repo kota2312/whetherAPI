@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="./css/whether.css">
+  <script type="text/javascript" src="./script/jquery-3.4.1.min.js" ></script>
+  <title>天気予報</title>
+</head>
+<body>
+  <main>
+    <div class="zip_contents">
+      <ul class="zip">
+        <h3>都道府県</h3>
+        <li>
+            <select id="address" data-flg="0" value="">
+              <option value="">選択してください</option>
+              <option value="tokyo">東京</option>
+              <option value="hokkaido">北海道</option>
+              <option value="iwate">岩手</option>
+              <option value="okinawa">沖縄</option>
+            </select>
+        </li>
+      </ul>
+    </div>
+    <div class="whether_contents">
+      <div class="whether">
+        <h3>天気予報</h3>
+        <p id="whether"></p>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="./script/whether.js"></script>
+</body>
+</html>
